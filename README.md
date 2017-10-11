@@ -6,6 +6,6 @@ Once you have antlr4 ready (and reference in the CLASSPATH as well) you may use 
 
      antlr4 -visitor str.g4
 	 javac *.java
-	 java main < file
+	 java main < test_file.in
 	 
-File has to contain an input in the LISP-tree format and the result is XML on the standard output.
+Test file has to contain an input in the LISP-style tree format and the result is XML on the standard output.
